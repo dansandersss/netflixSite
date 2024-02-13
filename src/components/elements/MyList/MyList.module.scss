@@ -1,0 +1,77 @@
+// MyList.module.scss
+@import "../../../variables";
+
+.mylistContainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px 60px;
+  color: $gray;
+
+  > .listNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > h1 {
+      font-size: 1.17em;
+    }
+
+    > .listLink {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+      color: $gray;
+      transform: translateX(0);
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateX(2px);
+      }
+
+      > i {
+        font-size: 20px;
+      }
+    }
+  }
+
+  > .listItems {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    > .listItem {
+      background: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      border-radius: 5px;
+      position: relative;
+      width: 200px;
+      overflow: hidden;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transform: perspective(1000px);
+
+      .backgroundImage {
+        background-size: cover;
+        background-position: center;
+        height: 150px; // настройте высоту по вашему усмотрению
+        opacity: 0.5;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        padding: 10px;
+      }
+
+      .overlay img {
+        border-radius: 50%;
+        transform: translateZ(20px);
+      }
+    }
+  }
+}

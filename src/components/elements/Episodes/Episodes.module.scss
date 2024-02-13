@@ -1,0 +1,117 @@
+@import "../../../variables";
+
+.seasonNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+
+  .menuBtnBlock {
+    .menuBtn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0;
+      border: none !important;
+      color: $gray;
+      font-size: 18px;
+
+      &:hover {
+        background: none;
+      }
+    }
+
+    i {
+      position: relative;
+      color: $gray;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: $gray;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateX(2px);
+    }
+
+    i {
+      font-size: 20px;
+    }
+  }
+}
+
+.parentSwiper {
+  overflow: hidden;
+  margin-bottom: 78px;
+  height: 160px;
+
+  .episodeImageContainer {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+    width: 225px;
+    height: 150px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      top: 5px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      );
+      border-radius: 20px;
+    }
+
+    .episodeImage {
+      width: 225px; // Уменьшаем размер изображения
+      max-height: 150px; // Сохраняем пропорции
+      border-radius: 20px;
+    }
+
+    .episodeNumber {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 56px; /* Размер шрифта цифры */
+      color: #000; /* Цвет цифры */
+      opacity: 0.9;
+      text-shadow: -1px -1px 0 $gray, 1px -1px 0 $gray, -1px 1px 0 $gray,
+        1px 1px 0 $gray; // Обводка
+      padding: 8px; /* Отступы вокруг цифры */
+      border-radius: 50%; /* Скругление углов для круглого фона */
+    }
+  }
+}
+
+.dialogBtn {
+  position: relative;
+  top: 0;
+  background-color: #c62e21 !important;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out !important;
+
+  &:hover {
+    background-color: #a3261b !important;
+    top: -5px;
+  }
+}
