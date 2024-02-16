@@ -4,7 +4,7 @@ import BottomNavigation from "../../UI/BottomNavigation/BottomNavigation";
 import Sidebar from "../../UI/Sidebar/Sidebar";
 import Episodes from "../Episodes/Episodes";
 import Information from "./Information";
-import VideoPlayer from "./Videoplayer";
+import VideoPlayer from "./VideoPlayer";
 import styles from "./Main.module.scss";
 
 const Main = ({
