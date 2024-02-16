@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const VideoPlayer = ({
+const VidedPlayer = ({
   videoList,
   onVideoChange,
   backgroundImage,
