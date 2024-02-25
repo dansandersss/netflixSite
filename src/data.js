@@ -8,7 +8,7 @@ export const DATA = [
     name: "Энн С Двумя НН",
     logo: anne,
     videoList: [
-      "src/videos/Y2meta.app-Anne _ Official Trailer [HD] _ Netflix-(1080p).mp4",
+      "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Y2meta.app-Anne%20_%20Official%20Trailer%20%5BHD%5D%20_%20Netflix-(1080p).mp4",
     ],
     year: 2017,
     limitAge: "12+",
@@ -80,7 +80,7 @@ export const DATA = [
     name: "Очень Странные Дела Сезон 2",
     logo: strangerThings,
     videoList: [
-      "src/videos/Stranger Things 2  Official Final Trailer  Netflix.mp4",
+      "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Stranger%20Things%202%20%20Official%20Final%20Trailer%20%20Netflix.mp4",
     ],
     year: 2017,
     limitAge: "16+",
