@@ -9,6 +9,7 @@ export const DATA = [
     logo: anne,
     videoList: [
       "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Y2meta.app-Anne%20_%20Official%20Trailer%20%5BHD%5D%20_%20Netflix-(1080p).mp4",
+      "https://youtu.be/cjevQ6vlX5w",
     ],
     year: 2017,
     limitAge: "12+",
@@ -81,6 +82,7 @@ export const DATA = [
     logo: strangerThings,
     videoList: [
       "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Stranger%20Things%202%20%20Official%20Final%20Trailer%20%20Netflix.mp4",
+      "https://youtu.be/UoR4411L32Y",
     ],
     year: 2017,
     limitAge: "16+",
