@@ -9,7 +9,7 @@ export const DATA = [
     logo: anne,
     videoList: [
       "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Y2meta.app-Anne%20_%20Official%20Trailer%20%5BHD%5D%20_%20Netflix-(1080p).mp4",
-      "https://youtu.be/cjevQ6vlX5w",
+      "https://www.veed.io/view/19bac775-0da6-48e0-b173-a789070d7395?panel=share",
     ],
     year: 2017,
     limitAge: "12+",
@@ -82,7 +82,7 @@ export const DATA = [
     logo: strangerThings,
     videoList: [
       "https://github.com/dansandersss/netflixSite/raw/master/src/videos/Stranger%20Things%202%20%20Official%20Final%20Trailer%20%20Netflix.mp4",
-      "https://youtu.be/UoR4411L32Y",
+      "https://www.veed.io/view/19bac775-0da6-48e0-b173-a789070d7395?panel=share",
     ],
     year: 2017,
     limitAge: "16+",
@@ -91,7 +91,7 @@ export const DATA = [
     description:
       "Второй сезон американского научно-фантастического сериала ужасов «Очень странные дела», указанный в титрах как «Очень странные дела 2», премьера которого состоялась по всему миру на Netflix 27 октября 2017 года.",
     photos: [
-      "https://i.pinimg.com/originals/97/cc/16/97cc16cf2f6542cc323c624ba983b4e3.jpg",
+      "https://www.veed.io/view/f756f19e-5e02-443d-969b-a8a1d46a0349?panel=share",
     ],
     author: "Duffer brother",
 
